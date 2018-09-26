@@ -5,7 +5,7 @@ export default function Cart(props) {
     return (
       <div key={i}>
         <div>{e}</div>
-        <button onClick={() => props.addBackToList(e)}>Add to cart</button>
+        <button onClick={() => props.addBackToList(e)}>Add back to list</button>
       </div>
     );
   });
